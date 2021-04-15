@@ -7,11 +7,7 @@ const AdminBroExpress = require('@admin-bro/express');
 
 var app = express();
 
-app.get('/', function (req, res) {
-    res.send('Hello World!');
-});
-
-
+app.get('/', ()=> res.send('Hello World!'));
 
 // Database
 const connection = require('./config/db.config');
