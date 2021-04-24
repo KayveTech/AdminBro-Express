@@ -6,3 +6,5 @@ Adding an Admin Panel To a Node.js Application
 npm install
 ## Start app
 npm run dev
+
+🚀
