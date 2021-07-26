@@ -12,7 +12,7 @@ connection.on('error',()=>console.log('Error', err));
 
 //Admin Bro and Models
 const Customer = require('./models/Customer')
-const Admin = require('./models/Admin
+const Admin = require('./models/Admin')
                       
 AdminBro.registerAdapter(mongooseAdminBro)
 const AdminBroOptions = {
